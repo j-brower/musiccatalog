@@ -34,6 +34,7 @@ DB_PASS = os.environ['MUSICCATALOG_PASS']
 # Application definition
 
 INSTALLED_APPS = [
+    'main.apps.MainConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
